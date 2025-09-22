@@ -117,7 +117,7 @@ Bu dosya, kullanıcıdan soru alır ve MAP-FILTER RAG yöntemini uygular.
 - **Hızlı ve modüler:** Milvus + Ollama entegrasyonu.
 - **Esnek:** Farklı modellerle kolayca çalışacak şekilde yapılandırılmıştır.
 
-## 📌 Notlar
+## Notlar
 
 - `OLLAMA_MODEL_MAP`: Küçük model, chunk filtreleme için.
 - `OLLAMA_MODEL_REDUCE`: Büyük model, nihai cevaplama için.
