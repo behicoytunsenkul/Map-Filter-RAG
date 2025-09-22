@@ -48,7 +48,7 @@ Embeddingler batch halinde Milvus’a yazılır.
 Chunk metinleri `chunk_texts.json` dosyasına kaydedilir.  
 Bu dosya daha sonra QA aşamasında kaynak olarak kullanılacaktır.
 
-## 2️⃣ MAP-FILTER RAG ile Soru-Cevap (AskOllama.py)
+## MAP-FILTER RAG ile Soru-Cevap (AskOllama.py)
 
 Bu dosya, kullanıcıdan soru alır ve MAP-FILTER RAG yöntemini uygular.
 
@@ -73,7 +73,7 @@ Bu dosya, kullanıcıdan soru alır ve MAP-FILTER RAG yöntemini uygular.
    Daha büyük model (`qwen3:8b`) kullanılarak nihai cevap üretilir.  
    Cevap sadece dokümanlardan üretilir, model kendi bilgisini eklemez.
 
-## ⚡ Kullanım
+## Kullanım
 
 1. Milvus ve Ollama’yı başlatın  
    ```
@@ -110,7 +110,7 @@ Bu dosya, kullanıcıdan soru alır ve MAP-FILTER RAG yöntemini uygular.
    Süre: 4.23 saniye
    ```
 
-## 🔑 Öne Çıkanlar
+## Öne Çıkanlar
 
 - **MAP-FILTER tekniği:** Alakasız chunk’lar ayıklanarak daha doğru yanıtlar.
 - **Türkçe optimizasyonu:** Türkçe için özel eğitilmiş embedding modeli.
